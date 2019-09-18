@@ -2,7 +2,7 @@
 <html>
     <head>
        <link href="css/estilos.css" type="text/css" rel="stylesheet" />
-    <head>
+    </head>
     <body>
         <div id="global">
             <h1>GESCOLAR</h1>

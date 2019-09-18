@@ -30,3 +30,21 @@ if(isset($_REQUEST['cadastrar']))
         echo $e >getMessage();
     }
 }
+
+?>
+<link href="css/estilos.css" type="text/css" rel="stylesheet" />
+<div> 
+<fieldset>
+    <legend> Cadastro de Aluno </legend>
+        <form action="cadastrar_alunos.php?cadastrar=true"> </label>
+              <label>Nome: <input type="text" name="nome" required/> </label>
+              <label>Cidade:<input type="text" name="cidade" required/> </label>
+              <label>CEP: <input type="text" name="cep" required /> </label>
+              <label>Bairro: <input type="text" name="bairro" required/> </label>
+              <label>Rua: <input type="rua" required/> </label>
+              <label>Estado: <input type="estado" required/></label>
+              <label>Data Nasc: <input type="text" name="data_nascimento" required/> </label>
+              <button type="submit">Salvar</button>
+        </form>
+   </legend>
+</div>
